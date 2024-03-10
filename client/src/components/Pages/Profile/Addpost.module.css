@@ -1,0 +1,328 @@
+.mainAddPost{
+    padding-top: 8vh;
+    height: 100vh auto;
+}
+.buttonProfile{
+    border-bottom: 1px solid rgb(160, 160, 160);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   
+    
+}
+
+.Allpost2{
+    height:65% ;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-left:1vh;
+    gap: 15px;
+   
+    margin-top: 10vh;
+   position: relative;
+   left: 10vh;
+   padding: 20px;
+}
+.Allpost2 article{
+    height: 55vh;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(159, 159, 159, 0.729);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.deletebtn{
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    border: none;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.729);
+    position: relative;
+    left: 19vh;
+    bottom: 7vh;
+}
+.voirplus{
+    height: 70px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.652);
+    left: 1vh;
+}
+.voirplus:hover{
+    box-shadow: 0px 10px 20px rgba(128, 128, 128, 0.652);
+}
+
+.postArticle{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.postArticle .voirplus{
+    bottom: 15px;
+}
+.postArticle .photo {
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+
+}
+.postArticle .photo img{
+    border-radius: 50%;
+}
+.postArticle .nom_user{
+    font-size: 25px;
+    position: relative;
+    right: 20px;
+    font-weight: bolder;
+}
+
+.images_article{
+    border-radius: 15px;
+   
+    height: 50%;
+    width: 88%;
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.542);
+
+}
+.postArticle img{
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+.informations_article{
+background-color: white;
+
+border-radius: 20px;
+height: 13%;
+width: 88%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 15px;
+font-size: 18px;
+box-shadow: 0px 5px 20px rgba(128, 128, 128, 0.659);
+}
+.informations_article .Date article{
+    height: 10%;
+  
+    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.659);
+    width: 180px;
+}
+.buttonvalider{
+    background-color: rgb(19, 175, 19);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    border: none;
+
+ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.649);
+}
+
+.description_article{
+
+
+height: 15%;
+width: 88%;
+font-size: 18px;
+
+
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: inherit;
+}
+
+.myprofile{
+    width:10% ;
+    height:45% ;
+    border-radius: 9px;
+    background: #e4ebee;
+    border: none;
+    box-shadow: 0px 7px 15px rgba(100, 100, 100, 0.647);
+    position: relative;
+    left: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* .buttonvalider{
+    background-color: rgb(19, 175, 19);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    border: none;
+
+ box-shadow: 0px 19px 20px rgba(0, 0, 0, 0.649);
+ position: relative;
+ bottom: 4vh;
+ left: 38vh;
+} */
+.choixCategorie{
+    padding-top: 5px;
+    width: 30%;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.588);
+}
+.choixCategorie{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+    border: 2px solid rgba(151, 151, 151, 0.501);
+}
+.mainAddPost select{
+  
+    width: 10vh;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.mainAddPost select option{
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.addnewpost{
+    width:10% ;
+    height:45% ;
+    border-radius: 9px;
+    background: #ffffff;
+    border: none;
+    box-shadow: 0px 7px 15px rgba(100, 100, 100, 0.647);
+  
+    font-size: 20px;
+    font-weight: bolder;
+}
+.TitreAdd{
+    height: 10%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.647);
+    display:flex ;
+    align-items: center;
+   font-size: 25px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bolder;
+}
+.TitreAdd h1{
+    position: relative;
+    left: 8vh;
+}
+.titrepost {
+ 
+    height: 7vh;
+}
+.titrepost input{
+    width: 80vh;
+    height: 70px;
+    border-radius: 5px;
+    background: #e4ebee;
+    background-blend-mode: normal;
+    box-shadow: 0px 3px 4px rgba(100,100,100,0.5);
+    position: relative;
+    top: 2vh;
+    outline: none;
+}
+.commentairepost{
+    position: relative;
+    top: 1vh;
+    height: 30vh;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+
+}
+.commentairepost textarea{
+    width: 80vh;
+    height: 20vh;
+    border-radius: 5px;
+    background: #e4ebee;
+    font-family: sans-serif;
+  font-size: 29px;
+  font-weight: 100;
+  outline: none;
+  border: none;
+   
+}
+/* .commentairepost textarea ::placeholder{
+    font-size: 45px;
+} */
+.commentairepost input{
+    width: 80vh;
+    height: 70px;
+}
+.mainAddPost form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+input{
+    border: none;
+}
+input :focus{
+
+    box-shadow: 0px 0px 16px rgb(38, 122, 231);
+
+}
+input[type="file"]{
+    background: #e4ebee;
+}
+.btnCommenter{
+    height: 7vh;
+    width: 80vh;
+    position: relative;
+    top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.btnCommenter .text{
+    font-size: 25px;
+    height: 30px;
+   
+
+}
+.btnCommenter button{
+    border-radius: 5px;
+    background: #aaae8e;
+    width: 18vh;
+    height: 60px;
+    color: #ffffff;
+   
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.558);
+    position: relative;
+    top: 50px;
+  
+}
+.Allpost2{
+  
+    margin-bottom: 2vh;
+}

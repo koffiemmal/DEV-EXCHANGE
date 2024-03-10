@@ -1,0 +1,159 @@
+.mainProfile{
+    height: 100vh auto;
+    padding-top: 8vh;
+}
+.mainProfile form{
+    width: 100%;
+    
+}
+input::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+.buttonProfile{
+    border-bottom: 1px solid rgb(160, 160, 160);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   
+    
+}
+.buttonvalider{
+    background-color: rgb(19, 175, 19);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    border: none;
+
+ box-shadow: 0px 19px 20px rgba(0, 0, 0, 0.649);
+}
+.myprofile{
+    width:10% ;
+    height:45% ;
+    border-radius: 9px;
+    background: #e4ebee;
+    border: none;
+    box-shadow: 0px 7px 15px rgba(100, 100, 100, 0.647);
+    position: relative;
+    left: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.addnewpost{
+    width:10% ;
+    height:45% ;
+    border-radius: 9px;
+    background: #ffffff;
+    border: none;
+    box-shadow: 0px 7px 15px rgba(100, 100, 100, 0.647);
+  
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.sauvegarde{
+    height: 10%;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sauvegarde article{
+    position: relative;
+    right: 40vh;
+}
+.sauvegarde article h1{
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sauvegarde .btnsvgd{
+    position: relative;
+    left: 40vh;
+    width:10% ;
+    height:80px ;
+    border-radius: 9px;
+    background: #e4ebee;
+    border: none;
+    box-shadow: 0px 7px 15px rgba(100, 100, 100, 0.647);
+   
+    font-size: 20px;
+    font-weight: bolder;
+}
+.sauvegarde article h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.namezone{
+    height: 10vh;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    display: flex;
+    align-items: center;
+}
+.namezone input{
+    height: 70px;
+    width: 20vh;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.58);
+}
+.listinput{
+    position: relative;
+    left: 35vh;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.listinput2{
+    position: relative;
+    left: 34vh;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.listinput2 input{
+    height: 70px;
+    width: 42vh;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.58);
+}
+.listinput3{
+    position: relative;
+    left: 35vh;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.listinput3 input{
+    height: 70px;
+    width: 42vh;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.58);
+}
+input:focus{
+    box-shadow: 0px 0px 15px green;
+   
+}
+.photoimages{
+    height: 130px;
+  
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 25px rgba(128, 128, 128, 0.733);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 7vh;
+
+    
+}
+.photoimages img{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+input{
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.612);
+    font-size: 25px;
+}

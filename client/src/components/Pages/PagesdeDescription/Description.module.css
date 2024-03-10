@@ -1,0 +1,168 @@
+.mainDescription{
+    padding-top:10vh;
+    height: auto ;
+}
+.elementmainDescription{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+}
+
+.titre{
+ 
+    height: 7vh;
+    width: 90%;
+    color: #3a606e;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+.return{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.72);
+    position: relative;
+    left: 15px;
+}
+.return:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.72);
+}
+.descriptionImages{
+
+    height: 60vh;
+    width: 70%;
+    border-radius: 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.635);
+}
+.descriptionImages img{
+    height: 100%;
+    width: 100%;
+    border-radius:5px ;
+}
+.commentaires{
+
+    width: 76.2%;
+}
+.description{
+
+    height: 30vh;
+    width: 85%;
+    font-size: 25px;
+    overflow: hidden;
+    
+}
+.formualireCommentaires textarea{
+    border-radius: 5px;
+    background: #ffffff;
+    border:1px solid rgba(128, 128, 128, 0.664);
+    outline: none;
+    width: 150vh;
+    padding: 20px;
+    font-size: 20px;
+    
+   
+   
+}
+.formualireCommentaires textarea:focus{
+    box-shadow:0px 0px 20px #487588;
+    border:none;
+    outline: none;
+    
+}
+.formualireCommentaires ::placeholder{
+    font-size: 20px;
+}
+.formualireCommentaires textarea:hover{
+
+    outline: none;
+}
+.submit{
+    width: 200px;
+    height: 65px;
+    border-radius: 5px;
+    background: #aaae8e;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 79.2em;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.685);
+}
+.listesCommentaires{
+   margin-top: 30px;
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  
+
+}
+.comment{
+    border-radius: 5px;
+    height: 10vh;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.638);
+    
+padding: 20px;
+border-radius: 10px;
+width: 98%;
+margin-bottom:2vh ;
+
+
+}
+.comment:hover{
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.631);
+}
+.nom_user{
+
+    height: 40%;
+    display: flex;
+align-items: center;
+justify-content: start;
+gap: 15px;
+
+}
+.moncommentaires{
+
+    height: 60%;
+    font-size: 20px;
+    overflow: hidden;
+    font-size: 25px;
+    
+
+}
+.username{
+    font-size: 25px;
+}
+.userprofile{
+    background-color: rgb(255, 255, 255);
+    height:75px;
+    width: 75px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.762);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userprofile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}

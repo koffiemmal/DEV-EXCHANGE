@@ -1,0 +1,568 @@
+* {
+   
+    transition: all.2s linear;
+    
+ }
+.Categories{
+    height: 120vh auto;
+display: flex;
+}
+.categorie{
+
+    height: 100vh;
+    padding-top: 10vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 2px;
+    
+ 
+}
+.listeCategories button{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    border: none;
+
+ box-shadow: 0px 19px 10px rgba(0, 0, 0, 0.649);
+ position: relative;
+
+}
+.publications{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   
+}
+.forums{
+
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 35vh;
+   position: sticky;
+   top: 1px;
+   gap: 25px;
+}
+.mostPopular{
+    background-color: #E4EBEE;
+    height: 30%;
+    width: 95%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px 3px rgb(159, 159, 159);
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 30vh;
+
+}
+
+.titre{
+    margin-top: 5vh;
+background-color: rgb(255, 255, 255);
+height: 10%;
+width: 80%;
+border-radius: 10px;
+text-align: center;
+font-size: 14px;
+box-shadow: 0px 0px 5px 5px rgb(159, 159, 159);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.listeCategories{
+    padding-top: 10px;
+    background-color: #E4EBEE;
+    height: auto;
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+
+    box-shadow: 0px 0px 3px 3px rgb(159, 159, 159);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.photoDelaCategorie{
+    padding-top: 12vh;
+  
+    height: 5vh;
+    width: 18vh;
+    border-radius: 50%;
+    position: relative;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px rgba(128, 128, 128, 0.577);
+}
+.photoDelaCategorie img{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    bottom: 6vh;
+}
+
+
+
+.UserInformations .photo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.listeCategories section{
+    border-radius: 8px;
+    background-color: #3A606E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 95%;
+    gap: 20px;
+    font-size: 25px;
+    margin-bottom: 8px;
+
+}
+.listeCategories .logocategoriesimages{
+
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+   
+    
+}
+.listeCategories .logocategoriesimages img{
+    height: 100%;
+    width: 100%;
+}
+.logonom{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+/* .logocategoriesimages{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2px;
+    height: 50px;
+} */
+.logocategories img{
+    height: 100%;
+    width: 100%;
+
+}
+.mostPopular section{
+    border-radius: 8px;
+    background-color: #AAAE8E;
+    height: 6vh;
+    width: 95%;
+    display: flex;
+    align-items:center ;
+    gap: 18px;
+    margin-bottom: 10px;
+
+}
+.mostPopular .photo{
+    background-color: white;
+    height: 90%;
+    width: 90px;
+    position: relative;
+    left: 10px;
+}
+.mostPopular .photo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.nom_userpoupular{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 45px;
+color: white;
+
+}
+.forums .listeCategories section:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.523);
+}
+.mostPopular section:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.523);
+}
+
+.newspost{
+   padding-left: 25px;
+   position: relative;
+   left: 10px;
+    margin-top: 10vh;
+    height:35vh;
+    background-color:#E4EBEE;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.338);
+    display:flex ;
+    align-items: center;
+    gap: 20px;
+
+  
+}
+.images{
+
+    width: 28%;
+    height: 85%;
+    position: relative;
+    left: 15px;
+border-radius: 10px;
+box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.542);
+
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.informations{
+
+width: 68%;
+height: 100%;
+
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+left: 15px;
+}
+
+.TitleAndDate{
+
+height: 20%;
+width: 100%;
+display:flex ;
+align-items: center;
+/* gap: 25vh; */
+justify-content: center;
+gap: 55vh;
+margin-right: 1vh;
+position: relative;
+top: 15px;
+
+
+}
+
+.voirplus{
+    height: 70px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.652);
+    left: 13vh;
+}
+.voirplus:hover{
+    box-shadow: 0px 10px 20px rgba(128, 128, 128, 0.652);
+}
+
+.TitleAndDate article{
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    height: 4vh;
+ 
+    display: flex;
+    align-items: center;
+ 
+    font-size: 25px;
+    color: #6b6e58;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.47);
+    
+    
+}
+.TitleAndDate h2{
+
+    width: 25vh;
+    font-size: 30px;
+}
+
+.Description{
+
+height: 55%;
+width: 100%;
+display: flex;
+font-size: 30px;
+justify-content: start;
+}
+.UserAndJaime{
+
+height: 25%;
+width: 100%;
+display: flex;
+align-items: center;
+}
+.UserInformations{
+
+
+display: flex;
+gap: 5vh;
+align-items: center;
+width: 30%;
+margin-right: 20vh;
+position: relative;
+
+}
+
+.photo{
+background-color: white;
+height: 80px;
+width: 80px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 10px 20px rgba(42, 42, 42, 0.314);
+}
+
+.nom_user{
+
+    width: auto;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 4vh;
+
+}
+.Like{
+    display: flex;
+    margin-left: 15vh;
+
+}
+.jaime{
+    background-color: #ffffff;
+    height: 65px;
+    width: 140px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 0px 10px 20px rgba(42, 42, 42, 0.314);
+    
+
+
+}
+.jaime button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 2px 5px black;
+
+    
+}
+.jaime button:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.629);
+}
+.jaime article{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#3A606E ;
+    background-color: #ffffff;
+    font-size: 25px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.458);
+}
+.nonjaime{
+
+ position: relative;
+ margin-left: 20px;
+ background-color: #3A606E;
+ height: 65px;
+ width: 140px;
+ border-radius: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ box-shadow: 0px 10px 20px rgba(42, 42, 42, 0.314);
+ color:#3A606E ;
+ background-color: #ffffff;
+ 
+}
+.nonjaime button{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 2px 5px black;
+}
+.nonjaime button:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.629);
+}
+.nonjaime article{
+
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#3A606E ;
+    background-color: #ffffff;
+    font-size: 25px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.458);
+}
+
+
+.Allpost{
+    height:65% ;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-left:1vh;
+    gap: 15px;
+
+}
+.Allpost article{
+    height: 55vh;
+    width: 95%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(159, 159, 159, 0.729);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.Allpost2{
+    height:65% ;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-left:1vh;
+    gap: 15px;
+   
+    margin-top: 10vh;
+}
+.Allpost2 article{
+    height: 55vh;
+    width: 95%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(159, 159, 159, 0.729);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.postArticle{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.postArticle .voirplus{
+    bottom: 15px;
+}
+.postArticle .photo {
+    width: 80px;
+    border-radius: 50%;
+
+}
+.postArticle .photo img{
+    border-radius: 50%;
+}
+.postArticle .nom_user{
+    font-size: 19px;
+    position: relative;
+    right: 20px;
+}
+
+.images_article{
+    border-radius: 15px;
+   
+    height: 50%;
+    width: 88%;
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.542);
+
+}
+.postArticle img{
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+.informations_article{
+background-color: white;
+
+border-radius: 20px;
+height: 13%;
+width: 88%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 15px;
+font-size: 18px;
+box-shadow: 0px 5px 20px rgba(128, 128, 128, 0.659);
+}
+.informations_article .Date article{
+    height: 10%;
+  
+    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.659);
+    width: 180px;
+}
+.description_article{
+
+
+height: 15%;
+width: 88%;
+font-size: 18px;
+
+
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: inherit;
+}
+

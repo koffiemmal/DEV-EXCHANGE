@@ -1,0 +1,355 @@
+header{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+   background-color: #dadada81;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.671);
+   z-index: 5;
+  width: 100%;
+  position: fixed;
+  backdrop-filter: blur(50px);
+
+}
+.logo{
+
+    width: 15%;
+    height: 100%;
+    background-image: url(../assets/Capture_d_écran_du_2024-01-18_16-54-12-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+
+}
+.AcceuilCategories{
+
+width: 10%;
+height: 100%;
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.AcceuilCategories button{
+ 
+    width: 80px;
+    height: 60%;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AAAE8E;
+    box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.609);
+
+}
+
+.AcceuilCategories button:hover {
+
+    
+    box-shadow: 0px 0px 15px #666953b8;
+
+}
+.recherche{
+
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+padding-left: 18vh;
+gap: 5vh;
+}
+.recherche form{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    padding: 10px;
+}
+.recherche input{
+
+width: 60%;
+height: 55%;
+border-radius: 8px ;
+border: none;
+font-size: 22px;
+outline: none;
+
+
+}
+.recherche button {
+
+    height: 55%;
+    width: 20%;
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #3A606E;
+    
+}
+.recherche button:hover{
+  
+   
+   
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.629);
+}
+
+
+.connexion{
+
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.connexion .userPlace{
+
+    height: 80% ;
+    width: 85%;
+    background-color: #AAAE8E;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.576) ;
+}
+.connexion .userPlace .photo_user{
+   
+    height: 90%;
+    width: 90px;
+    border-radius: 50%;
+    margin-left: 5px;
+  
+   
+}
+.connexion .userPlace .photo_user img{
+    height: 100%;
+    width: 80px;
+}
+
+.connexion .userPlace .nom_user{
+
+
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+.photo_user img{
+    height: 95%;
+    width: 100%;
+    border-radius: 50%;
+}
+.connexion button{
+
+    height: 55%;
+    width: 50%;
+    border:none;
+    font-size: 22px ;
+    border-radius: 8px;
+    background-color: #AAAE8E;
+    color:white;
+    font-weight: bold;
+    
+
+}
+
+.connexion .connexionbtn:hover{
+    box-shadow: 0px 0px 5px 5px rgb(126, 126, 126);
+}
+
+
+footer{
+    height: 35vh;
+    width: 100%;
+    background-color:#3A606E;
+    z-index: 6;
+}
+footer .social{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: 85%;
+
+}
+
+.social_1{
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   padding-top: 15px;
+    align-items: center;
+   
+}
+.social_1 p{
+    font-size: 22px;
+    color: #AAAE8E;
+}
+.logoFooter{
+
+    width: 60%;
+    height: 30%;
+    background-image: url(../assets/Capture_d_écran_du_2024-01-18_16-54-12-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.social_1 button{
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E4EBEE;
+   
+}
+
+.mediaSocial{
+    display: flex;
+    gap: 12px;
+}
+
+.footerSectionSocial{
+    padding-top: 30px;
+  
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    
+    
+}
+.footerSectionSocial ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+.footerSectionSocial h2{
+    color: #AAAE8E;
+}
+
+.footerSectionSocial li:hover{
+
+    color: white;
+
+    font-size: 25px;
+
+    cursor: pointer;
+
+}
+
+
+.copyright{
+ 
+    text-align: center;
+    color: white;
+}
+.buttondrop{
+    background: red;
+}
+ul.menuderoulant {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul.menuderoulant > li {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style pour le lien principal */
+  ul.menuderoulant > li > a {
+    display: block;
+    padding: 10px;
+    height: 10vh;
+    width: 20vh;
+    text-decoration: none;
+    color: #333; /* Couleur du texte */
+    background-color: #f9f9f9; /* Couleur de fond */
+    border: 1px solid #ddd; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+  }
+  
+  /* Style pour le menu déroulant */
+  ul.menuderoulant > li > ul.dropdown {
+    display: none; /* Caché par défaut */
+    position: relative;
+    top: 8vh; /* Position sous le lien principal */
+    width: 25vh;
+   margin-right: 15vh;
+    background-color: #fff; /* Couleur de fond */
+    border-radius:20px; /* Coins arrondis */
+    height: 25vh;
+    box-shadow: 0px 0px 25px rgba(128, 128, 128, 0.716);
+  }
+  
+  /* Style pour les éléments du menu déroulant */
+  ul.menuderoulant > li > ul.dropdown > li {
+    display: block;
+    width: 20vh;
+    position: relative;
+    right: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 30px;
+   border-bottom:1px solid rgba(128, 128, 128, 0.595) ;
+   padding-top: 5px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    
+  }
+  
+  /* Style pour les liens du menu déroulant */
+  ul.menuderoulant > li > ul.dropdown > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333; /* Couleur du texte */
+  }
+  
+  /* Effet au survol du lien principal */
+  ul.menuderoulant > li:hover > ul.dropdown {
+    display: block; /* Affiche le menu déroulant */
+    height: 15vh;
+    width: 30vh;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+  
+   margin-top: 1vh;
+    
+  }
+  ul.menuderoulant .libutton{
+    width: 100%;
+    border: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -10px;
+  
+
+  }
